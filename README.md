@@ -42,12 +42,13 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
 # Model Training
-you can train the model using model_training.ipynb (I used google colab to train the model)
+  # you can train the model using model_training.ipynb (I used google colab to train the model)
 
-# Translator
-Get the google cloud translator authentication json  (paid tool) and add it to the google_auth\auth.json
-you can also use the python library for that but the cloud translator seems more accurate
+# Translator - Get the google cloud translator authentication json  (paid tool) and add it to the google_auth\auth.json
+  # you can also use the python library for that but the cloud translator seems more accurate
 
 # Run the Streamlit app
-streamlit run final_with_steps.py for step by step flowchart generation (you can use this to understand the process, or debug purposes)
-streamlit run final_with_simplified_interfaces.py for automatic flowchart generation (this file hides the step by step generation)
+streamlit run with_steps.py
+   # for step by step flowchart generation (you can use this to understand the process, or debug purposes)
+streamlit run simplified_interfaces.py
+   # for automatic flowchart generation (this file hides the step by step generation)
