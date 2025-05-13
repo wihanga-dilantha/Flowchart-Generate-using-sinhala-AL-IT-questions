@@ -32,10 +32,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/sinhala-flowchart-generator.git
-
-# Enter the folder
-cd sinhala-flowchart-generator
+https://github.com/wihanga-dilantha/Flowchart-Generate-using-sinhala-AL-IT-questions.git
 
 # Set up virtual environment
 python -m venv venv
@@ -45,4 +42,5 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
 # Run the Streamlit app
-streamlit run app.py
+streamlit run final_with_steps.py for step by step flowchart generation (you can use this to understand the process, or debug purposes)
+streamlit run final_with_simplified_interfaces.py for automatic flowchart generation (this file hides the step by step generation)
